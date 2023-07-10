@@ -1,14 +1,14 @@
 {
-  "clientId": "",
-  "token": "",
+  "clientId": 1117315356306980984,
+  "token": "MTExNzMxNTM1NjMwNjk4MDk4NA.GXgjoZ.6SvfHuqP5Cen_wgLZZM9aJ9g4ekntlDBFXkOoU",
 
-  "parentOpened": "",
-  "Category1": "",
-  "Category2": "",
-  "Category3": "",
+  "parentOpened": 1122272517705441280,
+  "Category1": 1127770465994281040,
+  "Category2": 1127777656830697472,
+  "Category3": 1127777671510773880,
 
-  "roleSupport": "",
+  "roleSupport": 1116735983564619896,
   
-  "logsTicket": "",
-  "ticketChannel": ""
+  "logsTicket": 1122272737604423730,
+  "ticketChannel": 1122272269159378975
 }

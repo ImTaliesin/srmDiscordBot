@@ -84,7 +84,7 @@ module.exports = {
                   .setColor('6d6ee8')
                   .setAuthor({name: 'Ticket', iconURL: interaction.user.displayAvatarURL()})
                   .setDescription(`<@!${interaction.user.id}> Created a ticket with issues regarding \`${i.values[0]}\``)
-                  .setFooter({text: `${client.user.tag} || github.com/blackknight683`, iconURL: client.user.displayAvatarURL()})
+                  .setFooter({text: `${client.user.tag}`, iconURL: client.user.displayAvatarURL()})
                   .setTimestamp();
 
                 const row = new client.discord.MessageActionRow()
@@ -177,9 +177,9 @@ module.exports = {
             .then(async () => {
               const embed = new client.discord.MessageEmbed()
                 .setColor('6d6ee8')
-                .setAuthor({name: 'Ticket', iconURL: 'https://i.imgur.com/oO5ZSRK.png'})
+                .setAuthor({name: 'Ticket',}) //iconURL: ''})
                 .setDescription('```Ticket Summary```')
-                .setFooter({text: `${client.user.tag} || github.com/blackknight683`, iconURL: client.user.displayAvatarURL()})
+                .setFooter({text: `${client.user.tag}`, iconURL: client.user.displayAvatarURL()})
                 .setTimestamp();
 
               const row = new client.discord.MessageActionRow()
